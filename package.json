@@ -1,0 +1,29 @@
+{
+  "name": "proto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch --mode=development",
+    "build": "webpack -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^4.2.1",
+    "favicons-webpack-plugin": "^4.2.0",
+    "mini-css-extract-plugin": "^0.10.0",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^4.0.4",
+    "sass-loader": "^9.0.3",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "@kghost/favicons-webpack-plugin": "0.0.9",
+    "html-webpack-plugin": "^4.3.0",
+    "path": "^0.12.7",
+    "postcss": "^8.1.1"
+  }
+}
